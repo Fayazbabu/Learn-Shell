@@ -12,4 +12,6 @@ echo "who is running current script: $USER"
 echo "Directory of the current script: $PWD"
 echo "Home directory of the current user: $HOME"
 echo " pidof the current script: $$"
-
+sleep 10 &
+echo "PID of the command running in the background now: $!"
+wait$! ##script waits until the command complete
