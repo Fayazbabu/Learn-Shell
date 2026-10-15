@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "SOURCE"
+echo "$COURSE"
