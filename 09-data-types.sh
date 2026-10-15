@@ -18,4 +18,4 @@ echo "First fruit: ${FRUITS[0]}"
 
 name="Fayaz Babu S" 
 
-echo "${name}haik
+echo "${name}haik"
