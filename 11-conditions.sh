@@ -14,7 +14,7 @@ if [ $user_id -ne 0 ]; then
         echo "Nginx installation is failed"
         exit 1
 else 
-    echo " Nginx installation is success"
+    echo "Nginx installation is success"
     fi
 
     dnf install mysql -y
