@@ -18,4 +18,4 @@ wait$! ##script waits until the command complete
 echo "Line Number: $LINENO"
 echo "Previous command exit status: $?"
 echo "Total timme executed for this script: $SECONDS"
-
+echo "END"
