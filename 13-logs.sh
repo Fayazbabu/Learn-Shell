@@ -28,4 +28,4 @@ echo "Script Started Execution at $(date +"%F %T")" &>> $logs_file
     dnf install mysql -y &>> $logs_file
     validate $? "Mysql Installation"
 
-    echo "Script Exxecution Completed at $(date +"%F %T")" &>> $log_file
+    echo "Script Execution Completed at $(date +"%F %T")" &>> $log_file
