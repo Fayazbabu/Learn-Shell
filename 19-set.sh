@@ -11,7 +11,7 @@ N="\e[0m"
 
 trap 'echo "Error at $LINENO", command: "$BASH_COMMAND"' ERR
 
-if [ $user_id -n 0 ]; then
+if [ $user_id -ne 0 ]; then
     echo "Run this with Sudo Access.."
     exit 1
 fi
